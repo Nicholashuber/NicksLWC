@@ -19,6 +19,10 @@ app.use('/test', (req, res) => {
     res.sendFile(path.resolve(DIST_DIR+'/resources/', 'project1.html'));  
 });
 
+app.use('/test2', (req, res) => {
+    res.sendFile(path.resolve(DIST_DIR+'/resources/', 'index2.html'));
+});
+
 app.use('/index', (req, res) => {
     res.sendFile(path.resolve(DIST_DIR, 'index.html'));
 });
