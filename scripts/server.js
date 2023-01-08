@@ -19,7 +19,7 @@ app.use('/test', (req, res) => {
     res.sendFile(path.resolve(DIST_DIR, 'anotherpage.html'));
 });
 
-app.use('/', (req, res) => {
+app.use('/index', (req, res) => {
     res.sendFile(path.resolve(DIST_DIR, 'index.html'));
 });
 
