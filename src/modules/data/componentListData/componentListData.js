@@ -1,7 +1,7 @@
 export const componentListData = [
     {
         title: 'Avonni Components',
-        repo: 'https://github.com/avonni/base-components-sfdx',
+        repo: 'https://jovial-moonbeam-acfef2.netlify.app/resources/index2.html',
         description:
             'Avonni Components are customizable pre-made components built using the Lightning Web Components standards.',
         repoOwnerName: 'Avonni',
