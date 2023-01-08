@@ -16,7 +16,7 @@ app.use(express.static(DIST_DIR));
 
 
 app.use('/test', (req, res) => {
-    res.sendFile(path.resolve(DIST_DIR+'/resources/', 'project1.html'));
+    res.sendFile(path.resolve(DIST_DIR+'/resources/', 'project1.html'));  
 });
 
 app.use('/index', (req, res) => {
